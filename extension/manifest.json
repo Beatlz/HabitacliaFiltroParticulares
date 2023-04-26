@@ -1,0 +1,12 @@
+{
+  "name": "Habitaclia no agency",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://habitaclia.com/alquiler-viviendas-particulares-barcelona*", "https://www.habitaclia.com/alquiler-viviendas-particulares-barcelona*"],
+      "js": ["index.user.js"]
+    }
+  ],
+  "permissions": ["tabs"]
+}
