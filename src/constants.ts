@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://www.habitaclia.com/alquiler-viviendas-particulares-barcelona{page_number}.htm'
